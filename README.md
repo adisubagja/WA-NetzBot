@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/mhankbarbar/whatsapp-bot/master/img/Kaguya.png" width="128" height="128"/>
+<img src="https://raw.githubusercontent.com/mhankbarbar/whatsapp-bot/master/media/img/Kaguya.png" width="128" height="128"/>
 </p>
 <p align="center">
 <a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
@@ -25,19 +25,15 @@ Before running the below command, make sure you're in the project directory that
 you've just cloned!!
 
 ```bash
+> npm install gify-cli -g
 > npm i
 ```
 
 ### Usage
-Before running this script, first edit [`THIS`](https://github.com/MhankBarBar/whatsapp-bot/blob/master/msgHndlr.js#L55) section with your WhatsApp number, remember your WhatsApp number!  Not a bot number, then
+Before running this script, first edit [`THIS`](https://github.com/MhankBarBar/whatsapp-bot/blob/master/msgHndlr.js#L60) section with your WhatsApp number, remember your WhatsApp number!  Not a bot number, then
 ```bash
 > npm start
 ```
-
-## Terms & Condition
-By using the bot you agreeing to our Terms and Conditions 
-### Terms and conditions
-Your texts and your whatsapp username will be stored on our servers as long as the bot is active, your data will be erased when the bot goes offline. We do NOT store the images, videos, audio files and documents you send. We will never ask you to sign up or ask you for any of your passwords, OTPs or PINs. Thank you, Have a great day! 
 
 ## Features
 
@@ -46,6 +42,7 @@ Your texts and your whatsapp username will be stored on our servers as long as t
 |       ✅       | Send Photo with Caption          |
 |       ✅       | Reply A Photo                    |
 |       ✅       | Image Url                        |
+|       ✅       | Send Video or GIF with Caption   |
 
 
 | Downloader |                     Feature                |
@@ -66,7 +63,7 @@ Your texts and your whatsapp username will be stored on our servers as long as t
 |       ✅        |   Get info gempa from BMKG      |
 |       ✅        |   Weather's report's     |
 |       ✅        |   Wikipedia                 |
-|       ✅        |   Get a random anime quotes     |
+|       ✅        |   Anime searcher    |
 |       ✅        |   Get a random cat images       |
 |       ✅        |   Get a random dog images       |
 |      And        |   Others...                     |
@@ -81,7 +78,9 @@ Your texts and your whatsapp username will be stored on our servers as long as t
 |       ✅        |   Mention All User              |
 |       ✅        |   Get link group                |
 |       ✅        |   Get Admin list                |
-|       ✅        |   Get owner group                |
+|       ✅        |   Get owner group               |
+|       ✅        |   enable or disable nsfw command|
+|       ✅        |   enable or disable welcome feature|
 
 
 | Owner Group Only  |              Feature                |
@@ -99,6 +98,11 @@ Your texts and your whatsapp username will be stored on our servers as long as t
 Make sure all the necessary dependencies are installed.
 [`Troubleshooting`](https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md)
 
+Fix Stuck on linux, install google chrome stable:
+```bash
+> wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+> sudo apt install ./google-chrome-stable_current_amd64.deb
+```
 ## Special Thanks to
 * [`open-wa/wa-automate-nodejs`](https://github.com/open-wa/wa-automate-nodejs)
 * [`YogaSakti/imageToSticker`](https://github.com/YogaSakti/imageToSticker)
@@ -106,6 +110,3 @@ Make sure all the necessary dependencies are installed.
 
 ### Donate
 * [`Saweria`](https://saweria.co/donate/mhankbarbar)
-
-### Number of bot
-* [`click here`](https://wa.me/6285242137937)
